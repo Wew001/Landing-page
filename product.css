@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* 🏁 STATIC HEADER */
+.static-header {
+    background: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.static-header h1 {
+    font-size: 24px;
+}
+
+.static-header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.static-header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.static-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* 🚗 HERO SECTION */
+.products-hero {
+    background: url('bgg.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-hero h2 {
+    font-size: 36px;
+}
+
+/* 🏎️ PRODUCT GRID */
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.car-card {
+    background: #222;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.car-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* 📌 FOOTER */
+footer {
+    background: black;
+    padding: 20px;
+    margin-top: 30px;
+}
