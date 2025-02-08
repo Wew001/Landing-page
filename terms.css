@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #222;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.static-header {
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.legal-content {
+    padding: 50px;
+}
+
+footer {
+    background: black;
+    padding: 20px;
+}
